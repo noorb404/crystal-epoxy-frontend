@@ -5,18 +5,15 @@
   height: 80vh;
   overflow: hidden;
   margin-top: -30px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   background-position: center;
 }
 
 @media screen and (max-width: 380px) {
   .hero {
     background-size: contain;
-
     background-position: center;
     margin-top: 0px;
-    height: 800px;
+    height: 600px;
     max-width:380px;
 
 
@@ -85,7 +82,7 @@
         background-size: contain;
         background-position: center;
         margin-top: 0px;
-        height: 800px;
+        height: 600px;
         max-width:480px;
       }
       .hero__title {
