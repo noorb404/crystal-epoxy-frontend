@@ -199,5 +199,12 @@
     .brand-logo {
       height: 40px;
     }
+    .toolbar {
+      justify-content: left;
+      flex-wrap: wrap;
+    }
+    .custom-toolbar {
+      flex-wrap: wrap;
+    }
   }
   
