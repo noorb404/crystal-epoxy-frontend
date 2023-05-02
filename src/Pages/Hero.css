@@ -1,28 +1,55 @@
+
+  
+  /* Hero section */
   .hero {
     position: relative;
     text-align: center;
     background-size: cover;
-    max-height: 80vh;
+    background-position: center;
+    height: 80vh;
     overflow: hidden;
     margin-top: -30px;
-    background-position: center;
-    background-repeat: no-repeat;
+
   }
 
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .hero__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: fadeIn 2s ease-in;
+    text-align: center;
+  }
+
+  
   @media screen and (max-width: 380px) {
     .hero {
-      background-size: contain;
+      background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       margin-top: 0px;
-      max-height: 600px;
+      max-height: 300px;
       max-width:380px;
     }
   }
     
-
+  
   
 
+  
   .hero__title {
     font-size: 1.5rem;
     color: #fff;
@@ -61,13 +88,13 @@
         margin-bottom: 1rem;
       }
       .hero {
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         margin-top: 0px;
-        max-height: 600px;
+        max-height: 300px;
         max-width:480px;
         background-repeat: no-repeat;
-
+  
       }
       .hero__title {
         font-size: 1.2rem;
@@ -97,16 +124,7 @@
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         margin-bottom: 1rem;
       }
-      .hero {
-        background-size: contain;
-        background-position: center;
-        margin-top: 0px;
-        max-width:768px;
-        max-height: 600px;
-        background-repeat: no-repeat;
 
-    
-      }
       
   }
   
