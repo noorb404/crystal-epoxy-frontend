@@ -1,0 +1,244 @@
+/* Main container */
+
+  
+  /* Hero section */
+  .about-us__hero {
+    background: url("../Images/aboutUs.jpg") center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-us__heading {
+    font-size: 4rem;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .about-us__intro {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 4rem 0;
+  }
+  
+  .about-us__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* align items to the top */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-us__text {
+    flex-basis: 50%;
+    padding-right: 2rem;
+  }
+  
+  .about-us__subheading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about-us__paragraph {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-us__image {
+    height: 700px;
+    max-width: 500px;
+    object-fit: cover;
+    margin-top: 2rem;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  /* Wood section */
+  .about-us__woods {
+    background: #f7f7f4;
+    padding: 4rem;
+     text-align: center;
+
+  }
+  
+.about-us__woods-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+  .about-us__wood {
+    flex-basis: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .about-us__wood-image {
+    width: 20vw;
+    height: 20vw;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-us__wood-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #303030;
+    
+  }
+  
+  .about-us__wood-description {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #303030;
+
+  }
+  
+  /* Gallery section */
+  .about-us__gallery {
+    margin-top: 4rem;
+  }
+  
+  .about-us__gallery-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-us__gallery-link {
+    font-size: 1.4rem;
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .about-us__gallery-link:hover {
+    color: #999;
+  }
+  
+  .about-us__gallery-icon {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-left: 1rem;
+  }
+  
+  .about-us__gallery-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .about-us__gallery-image {
+    width: calc(50% - 1rem);
+    margin-bottom: 1rem;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  @media screen and (max-width: 867px) {
+    .about-us {
+        padding: 2rem;
+    }
+
+    /* Hero section */
+    .about-us__hero {
+    height: 200px;
+    }
+    
+    .about-us__heading {
+    font-size: 3rem;
+    }
+    
+    /* Intro section */
+    .about-us__intro {
+    margin: 2rem 0;
+    }
+    
+    .about-us__container {
+    flex-direction: column;
+    }
+    
+    .about-us__text {
+    flex-basis: 100%;
+    padding-right: 0;
+    text-align: center;
+    }
+    
+    .about-us__subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    }
+    
+    .about-us__paragraph {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 1.2rem;
+    }
+    
+    .about-us__image {
+    flex-basis: 100%;
+    max-height: 84vw;
+    max-width: 84vw;
+    margin-top: 2rem;
+    display: none;
+    }
+    
+    /* Wood section */
+    .about-us__woods {
+    padding: 2rem;
+    }
+    
+    .about-us__wood {
+    flex-basis: calc(100% / 2);
+    margin-bottom: 2rem;
+    }
+    
+    .about-us__wood-image {
+        width: 60vw;
+        height: 60vw;
+    margin-bottom: 1.5rem;
+    }
+    
+    .about-us__wood-heading {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    }
+    
+    .about-us__wood-description {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    }
+    
+    /* Gallery section */
+    .about-us__gallery-images {
+    flex-wrap: wrap;
+    }
+    
+    .about-us__gallery-image {
+    width: calc(50% - 0.5rem);
+    margin-bottom: 1rem;
+    object-fit: cover;
+    }
+    
+    .about-us__gallery-link {
+    font-size: 1.3rem;
+    }
+    
+    .about-us__gallery-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 0.5rem;
+    }
+    }

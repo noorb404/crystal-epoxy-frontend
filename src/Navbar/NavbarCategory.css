@@ -1,0 +1,204 @@
+.appbar {
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .button-text {
+    color: black;
+    padding: 10px;
+  }
+
+.brand {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+
+  }
+  .nav-link-text {
+    position: relative;
+  }
+  
+  .nav-link-text::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1.3px;
+    bottom: -5px;
+    background-color: rgb(53, 53, 53);
+    transition: all 0.7s ease-in-out;
+  }
+  
+  .nav-link-text:hover::before {
+    width: 100%;
+  }
+  
+  .nav-link-text:hover::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1.3px;
+    bottom: -5px;
+    left: 0;
+    background-color: rgb(53, 53, 53);
+    animation: slide-in 1s forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      width: 0%;
+      left: 0%;
+    }
+    50% {
+      width: 100%;
+      left: 0%;
+    }
+    100% {
+      width: 100%;
+      left: 0%;
+    }
+  }
+  
+
+  
+  
+  .brand-logo {
+    height: 50px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .brand-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+.custom-toolbar {
+    display: flex;
+    justify-content: left;
+  }
+  
+  
+  .button-icon {
+    color: black;
+  }
+  
+
+
+  .hr.dropdown-item:hover {
+    background-color: rgba(194, 194, 194, 0.979) !important;
+  }
+
+  .dropdown-menu > li:hover {
+    background-color: transparent !important;
+    }
+  .dropdown-item {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+
+  
+  .mobile-dropdown {
+    top: 60px !important;
+  }
+  
+  .nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .nav-link-text {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .nav-link-text-drop {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+  }
+
+  
+  .desktop-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-menu-button {
+    display: none;
+    padding-left: 90%;
+  }
+  .mobile-sub-menu {
+    padding-left: 1rem;
+  }
+  .mobile-menu hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .mobile-menu {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.842);
+    color: rgb(190, 173, 127);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  .mobile-drawer {
+    width: 300px;
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.945);
+  }
+  
+  .mobile-drawer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10%;
+  }
+  
+  .mobile-drawer-close {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 967px) {
+    .desktop-link {
+      display: none;
+    }
+  
+    .mobile-menu-button {
+      display: block;
+    }
+  
+    .brand {
+      align-items: left;
+      margin-right: 0;
+      flex-direction: row !important;
+    }
+  
+    .brand-name {
+      font-size: 0.8rem !important;
+      margin: 0;
+      white-space: nowrap;
+    }
+  
+    .brand-logo {
+      height: 40px;
+    }
+  }
+  

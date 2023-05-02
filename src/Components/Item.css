@@ -1,0 +1,195 @@
+/* Products section */
+.products {
+    margin-bottom: 2rem;
+  }
+  
+  .products__category {
+    margin-bottom: 2rem;
+  }
+  
+  .products__headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #1d1d1d;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .products__headline__smaller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #504f4f;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @media (max-width: 600px) {
+    .products__headline {
+      font-size: 1.2rem;
+    }
+    
+    .products__headline__smaller {
+      font-size: 0.8rem;
+    }
+  }
+
+  
+  .products__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+/* ... existing styles ... */
+
+
+
+
+
+
+
+/* ... existing styles ... */
+.products__item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .products__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px; /* Adjust this value based on your desired fixed height */
+    display: block;
+  }
+  .products__item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .products__item-description {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .products__item-description-price {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: -5px;
+  }
+  .products__item-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .custom-a{
+    text-decoration: none;
+    color: black;
+    }
+  .products__item-button {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #f5f5f5;
+    color: #000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    bottom: 10px;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  /* Media queries */
+  @media screen and (min-width: 768px) {
+    .products__item {
+      width: calc((100% - 30px) / 4);
+      margin-right: 3%;
+    }
+
+    .products__image {
+      height: 500px; /* Adjust this value based on your desired fixed height */
+    }
+    .products__item-description {
+      font-size: 1.1rem;
+    }
+    .products__item-price {
+      font-size: 1.4rem;
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+    .products__item-button {
+      font-size: 1.2rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .products__item {
+      width: calc((100% - 20px) / 2);
+      margin-right: 5px;
+      margin-bottom: 20px;
+    }
+    .products__image {
+      height: 180px;
+      max-height: 180px; /* Set maximum height to 100px for phone size */
+    }
+    .products__item-description {
+      font-size: 0.9rem;
+    }
+    .products__item-price {
+      font-size: 1rem;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    .products__item-button {
+        font-size: 1rem;
+        padding: 8px 16px;
+        margin-top: 10px;
+        display: block;
+      }
+    }
+
+  
+ 
+  
+    .show-all-btn {
+      margin: 1rem auto;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      text-align: center;
+      text-decoration: none;
+      background-color: #4a4a4a;
+      color: #ffffff;
+      border: 2px solid #4a4a4a;
+      display: inline-block;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    
+    .show-all-btn:hover {
+      color: #4a4a4a;
+      border: 2px solid #4a4a4a;
+      background-color: #ffffff;
+
+    }

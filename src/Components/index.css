@@ -1,0 +1,150 @@
+.button-container {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.image-button {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.4s ease;
+  transform-origin: 50% 50%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-button:hover {
+  width: 100%;
+}
+
+.text {
+  color: #252525;
+  font-size: 28px;
+  text-align: center;
+}
+
+.image-size {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+
+@media (min-width: 900px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+  }
+
+  .grid-item {
+    position: relative;
+  }
+  .text {
+    color: #252525;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .grid-item-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    max-height: 450px;
+
+  }
+
+  .grid-item-2 {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 1;
+    max-height: 220px;
+
+  }
+
+  .grid-item-3 {
+    grid-column: 5 / span 2;
+    grid-row: 1 / span 1;
+    max-height: 220px;
+
+  }
+
+  .grid-item-4 {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 1;
+    max-height: 220px;
+
+  }
+
+  .grid-item-5 {
+    grid-column: 5 / span 2;
+    grid-row: 2 / span 1;
+    max-height: 220px;
+
+  }
+
+  .grid-item-6 {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
+    max-height: 220px;
+
+  }
+
+  .grid-item-7 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 1;
+    max-height: 220px;
+
+  }
+
+  .grid-item-8 {
+    grid-column: 5 / span 2;
+    grid-row: 3 / span 1;
+    max-height: 220px;
+
+  }
+
+  .grid-item-9 {
+    grid-column: 1 / span 6;
+    grid-row: 4 / span 1;
+    max-height: 150px;
+  }
+
+  .image-size {
+    height: 100%;
+    max-height: none;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .image-size {
+    height: 100%;
+    max-height: none;
+  }
+}

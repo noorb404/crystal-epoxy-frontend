@@ -1,0 +1,95 @@
+@media only screen and (max-width: 900px) {
+    /* styles for screens smaller than 600px */
+    .navbar {
+        padding: 10px !important;
+        height: 40px !important;
+      }
+    .navbar__follow {
+      font-size: 10px !important;
+    }
+    .navbar__social {
+      font-size: 16px !important;
+    }
+    .navbar__email {
+      font-size: 10px !important;
+    }
+    .navbar__whatsapp {
+      font-size: 10px !important;
+    }
+    .navbar__follow {
+        display: none;
+      }
+  }
+  
+  
+  .navbar {
+    background-color: #3f3f3f;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    height: 40px;
+  
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar__links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .navbar__links-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__links-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__follow {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  
+  .navbar__social {
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .navbar__social:hover {
+    color: wheat;
+  }
+  
+  .navbar__email {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .navbar__email:hover {
+    color: wheat;
+  }
+  
+  .navbar__whatsapp {
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__whatsapp:hover {
+    color: wheat;
+  }
+  
+  .navbar__icon {
+    margin-right: 5px;
+  }
+  

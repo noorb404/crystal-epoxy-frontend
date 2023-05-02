@@ -1,0 +1,74 @@
+/* Navbar styles */
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  .container{
+    justify-content: space-between;    
+    
+  }
+  
+  .navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 600px;
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    color: #212529 !important; 
+
+  }
+  
+  .btn:focus,
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  .btn-outline-light {
+
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+
+  
+  .btn-outline-light:hover {
+    color: #f8f9fa !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa !important;
+  }
+  
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+  
+  .btn:not(:disabled):not(.disabled):active,
+  .btn:not(:disabled):not(.disabled).active {
+    background-image: none;
+  }
+  
