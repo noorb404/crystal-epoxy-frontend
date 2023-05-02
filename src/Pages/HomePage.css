@@ -538,10 +538,10 @@
       .hero {
         position: relative;
         text-align: center;
-        background-size: contain !important;
-        background-repeat: no-repeat;
-        background-position: center center;
-    
+        background-size:50% !important;
+        background-position: center;
+        height: 80vh;
+        overflow: hidden;
       }
       
     }
