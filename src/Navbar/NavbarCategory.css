@@ -145,14 +145,13 @@
     padding-right: 1rem;
   }
   .mobile-menu {
-    width: 100%;
+    width: 80vw;
     background-color: rgba(255, 255, 255, 0.842);
     color: rgb(190, 173, 127);
     display: flex;
     flex-direction: column;
     padding: 1rem;
     text-align: left;
-    width: 100%;
     box-sizing: border-box;
   }
   
