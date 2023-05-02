@@ -5,6 +5,7 @@ import './HomePage.css';
 import woodTableLogo from '../Images/table.png';
 import woodLogo from '../Images/wood.png';
 import chemicalLogo from '../Images/test.png';
+import mainBackground from '../Images/MainBackGround.jpg';
 import eco from '../Images/save-the-world.png';
 import colors from '../Images/pantone.png';
 import woods from '../Images/woods.png';
@@ -22,12 +23,12 @@ import payment from '../Images/payment-method.png';
 import { Box, Container } from "@mui/material";
 
 import { useEffect } from 'react';
+import Hero from '../Pages/Hero';
 import { H1 } from "../Components/Typography";
 import CategoryHomePage from '../Components/CategoryHomePage';
 import { Image } from 'cloudinary-react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
-import DynamicHeroSection from './DynamicHeroSection';
 
 
 
@@ -61,15 +62,20 @@ const HomePage = () => {
     });
   }, []);
   return (
-    <div>
+    <div className="container">
 
         {/* Hero section */}
 
-        <DynamicHeroSection 
+        <Hero 
         title="Custom Epoxy Tables" 
         subtitle="Exquisite Craftsmanship for Your Home" 
-        image={resins} 
+        imageSrc={mainBackground} 
       />
+          <div className="breadcrumb">
+            <ul>
+              <li><a className='home-link' href="/">Home</a></li>
+            </ul>
+          </div>
 
         {/* Quality section */}
         <div className="quality-products" >
@@ -161,10 +167,10 @@ const HomePage = () => {
           <div className='separator'></div>
              
 
-        <DynamicHeroSection 
+        <Hero 
         title="Our Finest Collection of Wood" 
         subtitle="Oak, Walnut, Cherry, Maple, Pine, Olive ,Eucalyptus" 
-        image={woodss} 
+        imageSrc={woodss} 
       />
 
 
