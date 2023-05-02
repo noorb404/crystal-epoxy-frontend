@@ -6,8 +6,9 @@
     text-align: center;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 80vh;
     overflow: hidden;
+    margin-top: -30px;
   }
   
   .hero::before {
@@ -67,14 +68,6 @@
         color: #fff;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         margin-bottom: 1rem;
-      }
-      .hero {
-        position: relative;
-        text-align: center;
-        background-size: cover;
-        background-position: center;
-        height: 80vh;
-        overflow: hidden;
       }
   }
   
