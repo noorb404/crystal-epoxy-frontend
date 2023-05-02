@@ -62,7 +62,7 @@ const HomePage = () => {
     });
   }, []);
   return (
-    <div className="container">
+    <div>
 
         {/* Hero section */}
 
@@ -71,11 +71,6 @@ const HomePage = () => {
         subtitle="Exquisite Craftsmanship for Your Home" 
         image={mainBackground} 
       />
-          <div className="breadcrumb">
-            <ul>
-              <li><a className='home-link' href="/">Home</a></li>
-            </ul>
-          </div>
 
         {/* Quality section */}
         <div className="quality-products" >
