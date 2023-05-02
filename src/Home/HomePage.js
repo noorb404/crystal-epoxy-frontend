@@ -9,7 +9,7 @@ import mainBackground from '../Images/aboutuscover.png';
 import eco from '../Images/save-the-world.png';
 import colors from '../Images/pantone.png';
 import woods from '../Images/woods.png';
-import woodss from '../Images/aboutuscover.png';
+import woodss from '../Images/rtee.jpg';
 import resins from '../Images/resins.png';
 import epoxy from '../Images/epoxy-resin-png.png';
 import insta from '../Images/instapng.png';
