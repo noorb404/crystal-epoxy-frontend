@@ -67,6 +67,8 @@
         margin-top: 0px;
         height: 600px;
         max-width:480px;
+        background-repeat: none;
+
       }
       .hero__title {
         font-size: 1.2rem;
@@ -101,6 +103,8 @@
         background-position: center;
         margin-top: 0px;
         max-width:768px;
+        background-repeat: none;
+
     
       }
       
