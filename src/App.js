@@ -20,6 +20,8 @@ import EditProduct from './Admin/Products/EditProduct';
 import { ContactComponent } from './Components/ContactComponent';
 import { useIsAdminRoute } from './useIsAdminRoute';
 import PasswordAuth from './PasswordAuth';
+const ADMIN_PASSWORD = process.env.REACT_APP_ADMIN_PASSWORD;
+
 
 
 function App() {
@@ -49,7 +51,7 @@ function App() {
             path="/admin-coke-zero"
             element={
               <PasswordAuth
-                password={"cokezero4123"}
+                password={ADMIN_PASSWORD}
                 onAuthSuccess={() => {}}
               >
                 <Home />
@@ -61,7 +63,7 @@ function App() {
             path='/admin-coke-zero/addproduct'
             element={
               <PasswordAuth
-                password={"cokezero4123"}
+                password={ADMIN_PASSWORD}
                 onAuthSuccess={() => {}}
               >
                 <AddProduct />
@@ -73,7 +75,7 @@ function App() {
             path='/admin-coke-zero/editproduct/:id'
             element={
               <PasswordAuth
-                password={"cokezero4123"}
+                password={ADMIN_PASSWORD}
                 onAuthSuccess={() => {}}
               >
                 <EditProduct />

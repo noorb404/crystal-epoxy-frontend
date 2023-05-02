@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Link, useParams } from 'react-router-dom';
 import {Image} from 'cloudinary-react';
 import Navbar from '../layout/Navbar';
 import './Home.css';
@@ -10,7 +9,6 @@ export default function Home() {
 
     const [products,setProducts]=useState([]);
 
-    const {id} = useParams();
 
     useEffect(()=>{
         loadProducts();
@@ -34,7 +32,7 @@ export default function Home() {
         <Navbar/>
 
             <div className='py-4'>
-            <table class="table table-hover table-bordered shadow">
+            <table className="table table-hover table-bordered shadow">
                 <thead>
                     <tr>
                     <th scope="col">Id</th>

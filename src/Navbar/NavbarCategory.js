@@ -10,7 +10,6 @@ import { AppBar, Toolbar, IconButton, Typography, MenuItem, Menu, Collapse, Grid
 
 const NavbarCategory = () => {
   const [anchorEl, setAnchorEl] = useState(null);
-  const [mobileMenuAnchorEl, setMobileMenuAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showProductsMenu, setShowProductsMenu] = useState(false);

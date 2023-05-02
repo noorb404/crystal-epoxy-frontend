@@ -22,7 +22,7 @@ export default function EditProduct() {
 
     useEffect(()=>{
         loadProduct();
-    },[])
+    })
 
     const onSubmit= async(e)=>{
         e.preventDefault();

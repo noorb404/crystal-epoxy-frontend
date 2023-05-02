@@ -12,7 +12,7 @@ export default function Item(props) {
     
     useEffect(() => {
         loadProducts();
-    }, []);
+    });
 
     const loadProducts = async() => {
         const result = await axios.get(`http://localhost:8080/products/category/${props.category}`);

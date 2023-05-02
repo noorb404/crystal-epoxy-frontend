@@ -1,4 +1,4 @@
-import { Grid, ButtonBase } from '@mui/material';
+import { ButtonBase } from '@mui/material';
 import Image4 from '../Images/coffee png.png';
 import Image1 from '../Images/kitchen tables.png';
 import Image3 from '../Images/serving board png.png';

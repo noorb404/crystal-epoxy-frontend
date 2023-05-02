@@ -20,7 +20,6 @@ const ItemPage = () => {
     height: 1,
     length: 1,
   });
-
   useEffect(() => {
     // Replace this with your actual fetch function to get product details
     const fetchProduct = async () => {
@@ -31,7 +30,7 @@ const ItemPage = () => {
     };
 
     fetchProduct();
-  }, [id]);
+  }, [id, dimensions]);
 
   if (!product) {
     return <div>Loading...</div>;

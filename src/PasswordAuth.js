@@ -15,6 +15,7 @@ const PasswordAuth = ({ password, onAuthSuccess, children }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log(password);
     if (inputPassword === password) {
       setIsAuthenticated(true);
       localStorage.setItem('authTimestamp', Date.now());

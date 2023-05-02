@@ -26,17 +26,10 @@ import { useEffect } from 'react';
 import Hero from '../Pages/Hero';
 import { H1 } from "../Components/Typography";
 import CategoryHomePage from '../Components/CategoryHomePage';
-import styled from 'styled-components';
 import { Image } from 'cloudinary-react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
 
-
-const StyledHeader = styled.h2`
-  font-family: 'Cursive';
-  font-size: 20px;
-  color: rgb(190, 173, 127);
-`;
 
 
 const HomePage = () => {
@@ -248,23 +241,23 @@ const HomePage = () => {
 
 
       </section>
-        <section class="epoxy-resin">
-          <div class="epoxy-resin__container">
-            <div class="epoxy-resin__text">
-              <h2 class="epoxy-resin__heading">What You Need to Know about Epoxy Resin</h2>
-              <h3 class="epoxy-resin__subheading">Our Unique Epoxy Resin Tables </h3>
+        <section className="epoxy-resin">
+          <div className="epoxy-resin__container">
+            <div className="epoxy-resin__text">
+              <h2 className="epoxy-resin__heading">What You Need to Know about Epoxy Resin</h2>
+              <h3 className="epoxy-resin__subheading">Our Unique Epoxy Resin Tables </h3>
               <p style={{textAlign:'left'}}>Our colorful epoxy is not only aesthetically pleasing, but also a durable and practical solution for enhancing the lifespan of your furniture. By adding pigments of different colors, we create unique and vivid patterns on the surface of the epoxy resin, which can complement any interior design. The epoxy resin also provides a strong and protective layer that shields the wood from scratches, moisture, and other external factors. Our team only uses certified and food-safe epoxy resin, ensuring the safety of our customers and their families. With our high-quality colorful epoxy, you can add a touch of artistry and practicality to your furniture, all while ensuring it stays in great condition for years to come.</p>
             </div>
-            <img src={resins} alt="Epoxy resin table" class="epoxy-resin__image" />
+            <img src={resins} alt="Epoxy resin table" className="epoxy-resin__image" />
           </div>
         </section>
 
-        <section class="epoxy-resin flipped">
-        <div class="epoxy-resin__container">
-          <img src={epoxy} alt="Safe epoxy resin" class="epoxy-resin__image" />
-          <div class="epoxy-resin__text">
-            <h2 class="epoxy-resin__heading">Safe Epoxy Resin</h2>
-            <h3 class="epoxy-resin__subheading">All you need to know about the safety of using our product</h3>
+        <section className="epoxy-resin flipped">
+        <div className="epoxy-resin__container">
+          <img src={epoxy} alt="Safe epoxy resin" className="epoxy-resin__image" />
+          <div className="epoxy-resin__text">
+            <h2 className="epoxy-resin__heading">Safe Epoxy Resin</h2>
+            <h3 className="epoxy-resin__subheading">All you need to know about the safety of using our product</h3>
             <p style={{textAlign:'left'}}>Epoxy resin is often used in applications where it comes into contact with food or human skin, such as in kitchen countertops or jewelry. At Crystal Epoxy, we understand the importance of using only safe and non-toxic materials. That's why we only use certified and food-safe epoxy resin in all of our products. Our epoxy resin is free from harmful substances such as BPA, VOCs, and solvents, ensuring that your health is never compromised. With Crystal Epoxy's safe epoxy resin, you can enjoy beautiful and functional furniture without any worries.</p>
           </div>
         </div>
