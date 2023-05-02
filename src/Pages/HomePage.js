@@ -5,7 +5,6 @@ import './HomePage.css';
 import woodTableLogo from '../Images/table.png';
 import woodLogo from '../Images/wood.png';
 import chemicalLogo from '../Images/test.png';
-import mainBackground from '../Images/MainBackGround.jpg';
 import eco from '../Images/save-the-world.png';
 import colors from '../Images/pantone.png';
 import woods from '../Images/woods.png';
@@ -69,7 +68,7 @@ const HomePage = () => {
         <DynamicHeroSection 
         title="Custom Epoxy Tables" 
         subtitle="Exquisite Craftsmanship for Your Home" 
-        image={mainBackground} 
+        image={resins} 
       />
 
         {/* Quality section */}
