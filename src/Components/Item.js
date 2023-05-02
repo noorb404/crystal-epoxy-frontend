@@ -12,7 +12,7 @@ export default function Item(props) {
     
     useEffect(() => {
         loadProducts();
-    });
+    },[]);
 
     const loadProducts = async() => {
         const result = await axios.get(`https://crystal-epoxy-backend.herokuapp.com/products/category/${props.category}`);
