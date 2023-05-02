@@ -172,7 +172,7 @@ const HomePage = () => {
               </div>
             </section>
             <style>
-              {`@media screen and (max-width: 767px) {
+              {`@media screen and (max-width: 480px) {
                 .hero {
                   background-image: url(${background});
                 }
