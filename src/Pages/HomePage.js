@@ -71,7 +71,11 @@ const HomePage = () => {
         subtitle="Exquisite Craftsmanship for Your Home" 
         imageSrc={mainBackground} 
       />
-
+          <div className="breadcrumb">
+            <ul>
+              <li><a className='home-link' href="/">Home</a></li>
+            </ul>
+          </div>
 
         {/* Quality section */}
         <div className="quality-products" >
