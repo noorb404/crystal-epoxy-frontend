@@ -23,12 +23,12 @@ import payment from '../Images/payment-method.png';
 import { Box, Container } from "@mui/material";
 
 import { useEffect } from 'react';
-import Hero from '../Pages/Hero';
 import { H1 } from "../Components/Typography";
 import CategoryHomePage from '../Components/CategoryHomePage';
 import { Image } from 'cloudinary-react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
+import DynamicHeroSection from './DynamicHeroSection';
 
 
 
@@ -66,7 +66,7 @@ const HomePage = () => {
 
         {/* Hero section */}
 
-        <Hero 
+        <DynamicHeroSection 
         title="Custom Epoxy Tables" 
         subtitle="Exquisite Craftsmanship for Your Home" 
         imageSrc={mainBackground} 
@@ -167,7 +167,7 @@ const HomePage = () => {
           <div className='separator'></div>
              
 
-        <Hero 
+        <DynamicHeroSection 
         title="Our Finest Collection of Wood" 
         subtitle="Oak, Walnut, Cherry, Maple, Pine, Olive ,Eucalyptus" 
         imageSrc={woodss} 
