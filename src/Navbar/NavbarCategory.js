@@ -124,6 +124,17 @@ const NavbarCategory = () => {
           </Link>
         </Typography>
         <hr />
+        <Typography variant="h6" className="nav-link">
+          <Link
+            to="/shelves"
+            className="nav-link-text-drop"
+            onClick={handleMobileMenuClose}
+            style={{fontFamily: 'system-ui' ,fontSize:'1rem'}}
+          >
+            SHELVES
+          </Link>
+        </Typography>
+        <hr />
       </div>
     </Collapse>
     <Typography variant="h6" className="nav-link">
