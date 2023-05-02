@@ -12,6 +12,7 @@
   .hero {
     background-size: contain;
     background-position: center;
+    background-repeat: none;
     margin-top: 0px;
     height: 600px;
     max-width:380px;
@@ -19,10 +20,10 @@
 
   }
 }
-
-
+  
 
   
+
   .hero__title {
     font-size: 1.5rem;
     color: #fff;
