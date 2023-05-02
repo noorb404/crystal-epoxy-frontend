@@ -71,12 +71,7 @@
         margin-bottom: 1rem;
       }
       .hero {
-        position: relative;
-        text-align: center;
-        background-size: cover;
-        background-position: center;
-        height: 80vh;
-        overflow: hidden;
+        margin-top: 0;
 
       }
       .hero__title {
@@ -108,12 +103,8 @@
         margin-bottom: 1rem;
       }
       .hero {
-        position: relative;
-        text-align: center;
-        background-size: cover;
-        background-position: center;
-        height: 80vh;
-        overflow: hidden;
+
+        margin-top: 0;
 
       }
       
