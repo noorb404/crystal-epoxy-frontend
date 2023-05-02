@@ -5,7 +5,7 @@ import './HomePage.css';
 import woodTableLogo from '../Images/table.png';
 import woodLogo from '../Images/wood.png';
 import chemicalLogo from '../Images/test.png';
-import mainBackground from '../Images/MainBackGround.jpg';
+import mainBackground from '../Images/MainBackGround.png';
 import eco from '../Images/save-the-world.png';
 import colors from '../Images/pantone.png';
 import woods from '../Images/woods.png';
@@ -71,11 +71,6 @@ const HomePage = () => {
         subtitle="Exquisite Craftsmanship for Your Home" 
         imageSrc={mainBackground} 
       />
-          <div className="breadcrumb">
-            <ul>
-              <li><a className='home-link' href="/">Home</a></li>
-            </ul>
-          </div>
 
         {/* Quality section */}
         <div className="quality-products" >
