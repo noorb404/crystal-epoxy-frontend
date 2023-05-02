@@ -169,3 +169,12 @@
     font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .contact__label,
+  .contact__value,
+  .contact__icon,
+  .contact__value a {
+    font-size: 0.74rem !important;
+  }
+}
