@@ -12,11 +12,13 @@
 
 @media screen and (max-width: 380px) {
   .hero {
-    background-size: cover;
+    background-size: contain;
+
     background-position: center;
     margin-top: 0px;
     height: 800px;
-    width:380px;
+    max-width:380px;
+
 
   }
 }
@@ -80,11 +82,11 @@
         margin-bottom: 1rem;
       }
       .hero {
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         margin-top: 0px;
         height: 800px;
-        width:480px;
+        max-width:480px;
       }
       .hero__title {
         font-size: 1.2rem;
@@ -115,9 +117,10 @@
         margin-bottom: 1rem;
       }
       .hero {
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         margin-top: 0px;
+        max-width:768px;
     
       }
       
