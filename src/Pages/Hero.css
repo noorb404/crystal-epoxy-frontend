@@ -15,6 +15,8 @@
     background-size: cover;
     background-position: center;
     margin-top: 0px;
+    height: 800px;
+    width:380px;
 
   }
 }
@@ -81,7 +83,8 @@
         background-size: cover;
         background-position: center;
         margin-top: 0px;
-    
+        height: 800px;
+        width:480px;
       }
       .hero__title {
         font-size: 1.2rem;
