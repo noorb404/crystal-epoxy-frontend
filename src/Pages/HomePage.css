@@ -534,29 +534,40 @@
         text-align: left;
       }
     
-      .epoxy-resin__image {
-        order: -1;
-      }
+
       .hero {
         position: relative;
         text-align: center;
-        background-size: cover;
+        background-size: contain !important;
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: -30px;
     
       }
       
     }
     
     @media only screen and (max-width: 768px) {
+      .epoxy-resin__container {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        padding: 0 20px;
+      }
+    
+      .epoxy-resin__heading {
+        font-size: 1rem;
+      }
+    
+      .epoxy-resin__subheading {
+        font-size: 0.8rem;
+      }
+
       .hero {
         position: relative;
         text-align: center;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: -30px;
+
     
       }
       
