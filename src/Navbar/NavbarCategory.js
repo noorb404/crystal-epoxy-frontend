@@ -48,8 +48,9 @@ const NavbarCategory = () => {
   };
 
   const MobileMenuPopover = () => (
-    <Collapse in={mobileMenuOpen} style={{ width: '100%', position: 'relative' }}>
   <div className="mobile-menu">
+
+    <Collapse in={mobileMenuOpen} style={{ width: '100%', position: 'relative' }}>
     <Typography variant="h6" className="nav-link">
       <Link to="/" className="nav-link-text-drop" onClick={handleMobileMenuClose} style={{fontFamily: 'system-ui' ,fontSize:'1rem'}}>
         HOME
@@ -148,8 +149,8 @@ const NavbarCategory = () => {
         ABOUT US
       </Link>
     </Typography>
-  </div>
 </Collapse>
+</div>
 
    
   );
@@ -250,7 +251,7 @@ const NavbarCategory = () => {
           </Toolbar>
         </AppBar>
       </Grid>
-      <Grid item>
+      <Grid item style={{background:''}}>
         <MobileMenuPopover />
       </Grid>
     </Grid>

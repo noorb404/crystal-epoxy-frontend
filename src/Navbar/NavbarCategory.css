@@ -148,9 +148,7 @@ body {
     padding-right: 1rem;
   }
   .mobile-menu {
-    width: 80vw;
     background-color: rgba(255, 255, 255, 0.842);
-    color: rgb(190, 173, 127);
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -186,7 +184,7 @@ body {
     .mobile-menu-button {
       display: block;
     }
-  
+
     .brand {
       align-items: left;
       margin-right: 0;
@@ -210,10 +208,54 @@ body {
       flex-wrap: wrap;
     }
     .appbar {
-      max-width: 100%;
+      max-width: 400px;
     }
     .brand {
       margin-right: auto;
     }
   }
   
+  @media screen and (max-width: 480px) {
+    .appbar {
+      padding: 10px;
+    }
+    
+    .toolbar {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+
+    .brand-name {
+      font-size: 0.7rem;
+    }
+    
+    .brand-logo {
+      height: 30px;
+    }
+    
+    .nav-link-text {
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 0.8rem;
+    }
+    
+    .dropdown-item {
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+    
+    .mobile-menu-button {
+      padding-left: 10px;
+    }
+    
+    .custom-toolbar {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .button-text {
+      padding: 5px;
+      font-size: 0.8rem;
+    }
+  }
