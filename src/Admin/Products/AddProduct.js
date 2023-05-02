@@ -160,7 +160,7 @@ export default function AddProduct() {
               onChange={(e) => setWidth(e.target.value)}
               value={width}
               placeholder="Enter width"
-              className="form-control"
+              className=" form-control form-control2"
               id="width"
               name="width"
             ></input>
@@ -176,7 +176,7 @@ export default function AddProduct() {
               onChange={(e) => setHeight(e.target.value)}
               value={height}
               placeholder="Enter height"
-              className="form-control"
+              className=" form-control form-control2"
               id="height"
               name="height"
             ></input>
@@ -192,7 +192,7 @@ export default function AddProduct() {
               onChange={(e) => setLength(e.target.value)}
               value={length}
               placeholder="Enter length"
-              className="form-control"
+              className=" form-control form-control2"
               id="length"
               name="length"
             ></input>

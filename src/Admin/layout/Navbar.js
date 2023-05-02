@@ -7,11 +7,11 @@ export default function Navbar() {
     <div>
       <nav className="navbar" style={{ padding: '40px' }}>
         <div className="container">
-          <p className="navbar-brand" >
-            Crystal Epoxy Admin Page
-          </p>
+          <Link to='/admin-coke-zero' className="navbar-brand" >
+            Admin Page
+          </Link>
           <Link to="addproduct" className="btn btn-outline-light">
-            Add Product
+            Add
           </Link>
         </div>
       </nav>

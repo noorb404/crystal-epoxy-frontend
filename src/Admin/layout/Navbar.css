@@ -72,3 +72,18 @@
     background-image: none;
   }
   
+  /* Smaller screen styles */
+@media only screen and (max-width: 680px) {
+  .navbar {
+    padding: 10px;
+  }
+  .navbar-brand {
+    padding-right: 0;
+  }
+  .btn {
+    font-size: 0.7rem;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 5px !important;
+  }
+}
