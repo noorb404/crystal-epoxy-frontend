@@ -5,7 +5,7 @@ import './HomePage.css';
 import woodTableLogo from '../Images/table.png';
 import woodLogo from '../Images/wood.png';
 import chemicalLogo from '../Images/test.png';
-import mainBackground from '../Images/CoffeBackGround.jpg';
+import mainBackground from '../Images/MainBackGround.jpg';
 import eco from '../Images/save-the-world.png';
 import colors from '../Images/pantone.png';
 import woods from '../Images/woods.png';
@@ -15,7 +15,6 @@ import epoxy from '../Images/epoxy-resin-png.png';
 import insta from '../Images/instapng.png';
 import smallInsta from '../Images/smallInsta.png';
 
-import background from '../Images/woodslabs.jpg';
 
 import shipping from '../Images/shipped.png';
 import warranty from '../Images/guarantee.png';
@@ -162,24 +161,14 @@ const HomePage = () => {
           <Link to="/kitchen-office-tables" className="show-all-btn" style={{ display: 'inline-block' }}>Show All Tables <FaArrowRight style={{ paddingTop: "5px" }} /></Link>
         </div>  
           <div className='separator'></div>
+             
 
-          <div>
-            {/* Hero section */}
-            <section className="hero" style={{backgroundImage: `url(${woodss})`, backgroundAttachment: 'fixed'}}>
-              <div className="hero__content">
-                <h1 className="hero__title">Our Finest Collection of Wood</h1>
-                <h2 className="hero__subtitle">Oak, Walnut, Cherry, Maple, Pine, Olive ,Eucalyptus</h2>
-              </div>
-            </section>
-            <style>
-              {`@media screen and (max-width: 480px) {
-                .hero {
-                  background-image: url(${background});
-                }
-              }`}
-            </style>
-          </div>
-            
+        <Hero 
+        title="Our Finest Collection of Wood" 
+        subtitle="Oak, Walnut, Cherry, Maple, Pine, Olive ,Eucalyptus" 
+        imageSrc={woodss} 
+      />
+
 
             
         {/* Quality section */}
