@@ -209,5 +209,11 @@ body {
     .custom-toolbar {
       flex-wrap: wrap;
     }
+    .appbar {
+      max-width: 100%;
+    }
+    .brand {
+      margin-right: auto;
+    }
   }
   
