@@ -69,7 +69,7 @@ const HomePage = () => {
         <DynamicHeroSection 
         title="Custom Epoxy Tables" 
         subtitle="Exquisite Craftsmanship for Your Home" 
-        imageSrc={mainBackground} 
+        image={mainBackground} 
       />
           <div className="breadcrumb">
             <ul>
@@ -170,7 +170,7 @@ const HomePage = () => {
         <DynamicHeroSection 
         title="Our Finest Collection of Wood" 
         subtitle="Oak, Walnut, Cherry, Maple, Pine, Olive ,Eucalyptus" 
-        imageSrc={woodss} 
+        image={woodss} 
       />
 
 

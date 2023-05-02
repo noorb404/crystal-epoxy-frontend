@@ -1,18 +1,29 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import heroImage from './path/to/image.jpg';
-
 const Hero = styled.section`
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: url(${props => props.image}) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
 
-  @media screen and (max-width: 767px) {
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  @media screen and (max-width: 389px) {
     height: auto;
     padding-top: 50%;
     background-position: top center;
@@ -23,14 +34,20 @@ const HeroContent = styled.div`
   text-align: center;
   color: #fff;
   z-index: 1;
+  margin-top: -50px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: -20px;
+    padding-top: 40%;
+  }
 `;
 
 const HeroTitle = styled.h1`
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 20px;
-
+  color:#ffff;
   @media screen and (max-width: 767px) {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
   }
 `;
@@ -40,21 +57,8 @@ const HeroSubtitle = styled.h2`
   margin-bottom: 30px;
 
   @media screen and (max-width: 767px) {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
-  }
-`;
-
-const HeroImage = styled.img`
-  display: none;
-
-  @media screen and (max-width: 767px) {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
   }
 `;
 
@@ -65,7 +69,6 @@ const DynamicHeroSection = ({ title, subtitle, image }) => {
         <HeroTitle>{title}</HeroTitle>
         <HeroSubtitle>{subtitle}</HeroSubtitle>
       </HeroContent>
-      <HeroImage src={image} alt="" />
     </Hero>
   );
 };
