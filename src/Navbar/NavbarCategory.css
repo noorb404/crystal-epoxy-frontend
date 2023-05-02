@@ -208,7 +208,7 @@ body {
       flex-wrap: wrap;
     }
     .appbar {
-      max-width: 400px;
+      max-width: 100%;
     }
     .brand {
       margin-right: auto;
@@ -216,9 +216,7 @@ body {
   }
   
   @media screen and (max-width: 480px) {
-    .appbar {
-      padding: 10px;
-    }
+
     
     .toolbar {
       flex-wrap: wrap;
