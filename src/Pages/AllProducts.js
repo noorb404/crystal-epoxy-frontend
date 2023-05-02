@@ -13,7 +13,7 @@ export const AllProducts = () => {
     }, []);
 
     const loadProducts = async() => {
-        const result = await axios.get(`http://localhost:8080/products`);
+        const result = await axios.get(`https://crystal-epoxy-backend.herokuapp.com/products`);
 
         setProducts(result.data);
         console.log(result.data);

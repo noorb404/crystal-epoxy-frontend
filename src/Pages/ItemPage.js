@@ -23,7 +23,7 @@ const ItemPage = () => {
   useEffect(() => {
     // Replace this with your actual fetch function to get product details
     const fetchProduct = async () => {
-      const response = await fetch(`http://localhost:8080/products/${id}`);
+      const response = await fetch(`https://crystal-epoxy-backend.herokuapp.com/products/${id}`);
       const data = await response.json();
       setProduct(data);
       setDimensions({ ...dimensions, price: data.price });

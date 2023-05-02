@@ -26,12 +26,12 @@ export default function EditProduct() {
 
     const onSubmit= async(e)=>{
         e.preventDefault();
-        await axios.put(`http://localhost:8080/${id}`,product);
+        await axios.put(`https://crystal-epoxy-backend.herokuapp.com/${id}`,product);
         navigate("/");
     }
 
     const loadProduct = async()=>{
-        const result=await axios.get(`http://localhost:8080/products/${id}`);
+        const result=await axios.get(`https://crystal-epoxy-backend.herokuapp.com/products/${id}`);
         setProduct(result.data);
     }
   return (

@@ -39,12 +39,12 @@ const HomePage = () => {
   
   useEffect(() => {
     // Fetch tables from the API
-    fetch('http://localhost:8080/products/category/Tables')
+    fetch('https://crystal-epoxy-backend.herokuapp.com/products/category/Tables')
       .then(response => response.json())
       .then(data => setTables(data.slice(0, 6))); // limit to 6 items
   
     // Fetch random products from the API
-    fetch('http://localhost:8080/products')
+    fetch('https://crystal-epoxy-backend.herokuapp.com/products')
     .then(response => response.json())
     .then(data => {
       // Filter out products in the "Tables" category

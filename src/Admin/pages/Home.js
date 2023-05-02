@@ -15,14 +15,14 @@ export default function Home() {
     },[]);
 
     const loadProducts = async()=>{
-        const result = await axios.get("http://localhost:8080/products");
+        const result = await axios.get("https://crystal-epoxy-backend.herokuapp.com/products");
         setProducts(result.data);
         console.log(result.data);
     }
 
     const deleteProduct =async(id)=>{
         if (window.confirm("Are you sure you want to delete this product?")) {
-            await axios.delete(`http://localhost:8080/${id}`);
+            await axios.delete(`https://crystal-epoxy-backend.herokuapp.com/${id}`);
             loadProducts();
         }
     }

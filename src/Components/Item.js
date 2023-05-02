@@ -15,7 +15,7 @@ export default function Item(props) {
     });
 
     const loadProducts = async() => {
-        const result = await axios.get(`http://localhost:8080/products/category/${props.category}`);
+        const result = await axios.get(`https://crystal-epoxy-backend.herokuapp.com/products/category/${props.category}`);
         console.log(props.category);
 
         setProducts(result.data);

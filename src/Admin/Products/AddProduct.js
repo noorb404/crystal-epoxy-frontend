@@ -104,7 +104,7 @@ export default function AddProduct() {
         }
         console.log(JSON.stringify(finalProduct));
 
-        await axios.post("http://localhost:8080/products/add", finalProduct);
+        await axios.post("https://crystal-epoxy-backend.herokuapp.com/products/add", finalProduct);
         navigate("/admin-secret");
     }
 
