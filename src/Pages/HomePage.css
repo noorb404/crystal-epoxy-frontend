@@ -167,7 +167,7 @@
   }
 
   .quality-products2 {
-    background: #ffffff;
+    background: #f7f7f4;
     padding-bottom: 2rem;
   }
   /* Quality section */
@@ -370,7 +370,7 @@
 
     .separator {
       width: 60%;
-      height: 1.5px;
+      height: 1px;
       background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0) 100%);
       margin: 50px auto;
       opacity: 1;

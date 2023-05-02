@@ -72,6 +72,9 @@ const HomePage = () => {
         imageSrc={mainBackground} 
       />
 
+              
+   
+
         {/* Quality section */}
         <div className="quality-products" >
         <section className="quality" style={{padding:'50px',paddingBottom:'0px'}}>
@@ -92,6 +95,7 @@ const HomePage = () => {
             </div>
           </section>
         </div>
+
 
 
         {/* SHOP BY CATEGORY section */}
@@ -132,6 +136,25 @@ const HomePage = () => {
           </section>
         </div>
         
+        <div className="insta-section" >
+        <picture>
+          <source media="(max-width: 767px)" srcSet={smallInsta} />
+          <img src={insta} alt="Instagram preview" className="insta-image" />
+        </picture>
+        <div className="insta-headline">
+          <h2>Follow us</h2>
+          <h1>On Instagram!</h1>
+          <a
+            href="https://www.instagram.com/crystal.wood_epoxydesign/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="follow-us-link"
+            style={{ color: "#f7f7f4", padding: "10px" }}
+          >
+            @CRYSTAL.WOOD_EPOXYDESIGN<FaArrowRight style={{ marginLeft:'7px',paddingTop: "5px" }} />
+          </a>
+        </div>
+      </div>
 
       {/* Products section */}
       <section className="products">
@@ -192,26 +215,7 @@ const HomePage = () => {
         </section>
         </div>
 
-        
-      <div className="insta-section">
-        <picture>
-          <source media="(max-width: 767px)" srcSet={smallInsta} />
-          <img src={insta} alt="Instagram preview" className="insta-image" />
-        </picture>
-        <div className="insta-headline">
-          <h2>Follow us</h2>
-          <h1>On Instagram!</h1>
-          <a
-            href="https://www.instagram.com/crystal.wood_epoxydesign/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="follow-us-link"
-            style={{ color: "#f7f7f4", padding: "10px" }}
-          >
-            @CRYSTAL.WOOD_EPOXYDESIGN<FaArrowRight style={{ marginLeft:'7px',paddingTop: "5px" }} />
-          </a>
-        </div>
-      </div>
+
       <div className='separator'></div>
 
 
