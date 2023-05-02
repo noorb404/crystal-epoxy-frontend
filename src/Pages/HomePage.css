@@ -537,6 +537,29 @@
       .epoxy-resin__image {
         order: -1;
       }
+      .hero {
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: -30px;
+    
+      }
+      
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .hero {
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: -30px;
+    
+      }
+      
     }
     
     
