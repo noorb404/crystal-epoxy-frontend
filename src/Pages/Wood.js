@@ -2,7 +2,6 @@ import React from 'react';
 import Item from '../Components/Item';
 import './main.css';
 import Hero from './Hero';
-import background from '../Images/woodslabs.jpg';
 
 const Wood = () => {
   return (
@@ -11,7 +10,7 @@ const Wood = () => {
       <Hero 
         title="Bring nature into your space with our wood slabs." 
         subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-        imageSrc={background} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124465/woodslabs_dznc89.jpg"} 
       />
       <div className="breadcrumb">
         <ul>

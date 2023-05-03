@@ -2,7 +2,6 @@ import React from 'react';
 import Item from '../Components/Item';
 import './main.css';
 import Hero from './Hero';
-import CoffeTableBackGround from '../Images/CoffeBackGround.jpg';
 
 const SmallTables = () => {
   return (
@@ -11,7 +10,7 @@ const SmallTables = () => {
         <Hero 
         title="Unwind and entertain with our stunning coffee tables." 
         subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-        imageSrc={CoffeTableBackGround} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124348/CoffeBackGround_y3ppvu.jpg"} 
       />
         <div className="breadcrumb">
         <ul>

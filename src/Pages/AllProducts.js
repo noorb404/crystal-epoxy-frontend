@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './main.css';
 import Hero from './Hero';
-import background from '../Images/allproductscover.png';
 import { Image } from 'cloudinary-react';
 import axios from 'axios';
 
@@ -25,7 +24,7 @@ export const AllProducts = () => {
           <Hero 
             title="Elevate your space with our stunning products." 
             subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-            imageSrc={background} 
+            imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124098/allproductscover_tfq5c4.png"} 
           />
           <div className="breadcrumb">
             <ul>

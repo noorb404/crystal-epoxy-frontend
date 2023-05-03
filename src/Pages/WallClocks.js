@@ -2,7 +2,6 @@ import React from 'react';
 import Item from '../Components/Item';
 import './main.css';
 import Hero from './Hero';
-import ClockBackGround from '../Images/ClockBackGround.jpg';
 
 const WallClocks = () => {
   return (
@@ -11,7 +10,7 @@ const WallClocks = () => {
         <Hero 
         title="Timeless style for every room, always on." 
         subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-        imageSrc={ClockBackGround} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124216/ClockBackGround_g8pegs.jpg"} 
       />
         <div className="breadcrumb">
         <ul>

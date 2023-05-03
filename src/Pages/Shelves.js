@@ -2,7 +2,6 @@ import React from 'react';
 import Item from '../Components/Item';
 import './main.css';
 import Hero from './Hero';
-import background from '../Images/shelv.png';
 
 const Shelves = () => {
   return (
@@ -11,7 +10,7 @@ const Shelves = () => {
       <Hero 
         title="Elevate your space with our stylish shelves." 
         subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-        imageSrc={background} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124417/shelv_snhr92.png"} 
       />
       <div className="breadcrumb">
         <ul>

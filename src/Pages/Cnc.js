@@ -2,7 +2,6 @@ import React from 'react';
 import Item from '../Components/Item';
 import './main.css';
 import Hero from './Hero';
-import background2 from '../Images/cnc_png.jpg';
 
 const Cnc = () => {
   return (
@@ -11,7 +10,7 @@ const Cnc = () => {
       <Hero 
         title="Transform your home with our precision-cut designs." 
         subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-        imageSrc={background2} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124263/cnc_png_vstme9.jpg"} 
       />
       <div className="breadcrumb">
         <ul>

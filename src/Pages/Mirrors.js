@@ -2,7 +2,6 @@ import React from 'react';
 import Item from '../Components/Item';
 import './main.css';
 import Hero from './Hero';
-import mirrorBackGround from '../Images/mirrorBackground.jpg';
 
 const Mirrors = () => {
   return (
@@ -11,7 +10,7 @@ const Mirrors = () => {
         <Hero 
         title="Reflect your unique style with our mirrors." 
         subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-        imageSrc={mirrorBackGround} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124263/cnc_png_vstme9.jpg"} 
       />
         <div className="breadcrumb">
         <ul>

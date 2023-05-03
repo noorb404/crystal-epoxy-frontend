@@ -2,7 +2,6 @@ import React from 'react';
 import "./main.css"
 import Item from '../Components/Item';
 import Hero from './Hero';
-import BoardsBackground from '../Images/BoardsBackground.jpg';
 
 
 const Boards = () => {
@@ -12,7 +11,7 @@ const Boards = () => {
       <Hero 
         title="Elevate your dining experience with serving boards." 
         subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-        imageSrc={BoardsBackground} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124098/allproductscover_tfq5c4.png"} 
       />
       <div className="breadcrumb">
         <ul>

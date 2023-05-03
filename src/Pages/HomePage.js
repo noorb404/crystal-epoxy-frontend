@@ -5,11 +5,9 @@ import './HomePage.css';
 import woodTableLogo from '../Images/table.png';
 import woodLogo from '../Images/wood.png';
 import chemicalLogo from '../Images/test.png';
-import mainBackground from '../Images/aboutuscover.png';
 import eco from '../Images/save-the-world.png';
 import colors from '../Images/pantone.png';
 import woods from '../Images/woods.png';
-import woodss from '../Images/rtee.jpg';
 import resins from '../Images/resins.png';
 import epoxy from '../Images/epoxy-resin-png.png';
 import insta from '../Images/instapng.png';
@@ -89,7 +87,7 @@ const HomePage = () => {
         <Hero 
         title="Custom Epoxy Tables" 
         subtitle="Exquisite Craftsmanship for Your Home" 
-        imageSrc={mainBackground} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683123596/aboutuscover_c3cbkm.png"} 
       />
 
               
@@ -216,7 +214,7 @@ const HomePage = () => {
         <Hero 
         title="Our Finest Collection of Wood" 
         subtitle="Oak, Walnut, Cherry, Maple, Pine, Olive ,Eucalyptus" 
-        imageSrc={woodss} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683123925/rtee_iou7v5.jpg"} 
       />
 
 
