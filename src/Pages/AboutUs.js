@@ -8,7 +8,6 @@ import olive from "../Images/olivewood.png";
 import eucalyptus  from "../Images/Eucalyptuswood.jpg";
 import maple from "../Images/maplewood.jpg";
 import Hero from './Hero';
-import aboutUsBackground from '../Images/aboutuscover.png';
 import { FaArrowRight } from 'react-icons/fa';
 import insta from '../Images/instapng.png';
 import smallInsta from '../Images/smallInsta.png';
@@ -20,7 +19,7 @@ function AboutUs() {
     <Hero 
         title="CRYSTAL EPOXY LTD." 
         subtitle="" 
-        imageSrc={aboutUsBackground} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683123596/aboutuscover_c3cbkm.png"} 
       />
       <div className="breadcrumb">
         <ul>

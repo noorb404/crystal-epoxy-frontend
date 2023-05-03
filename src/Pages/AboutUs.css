@@ -3,7 +3,6 @@
   
   /* Hero section */
   .about-us__hero {
-    background: url("../Images/aboutUs.jpg") center/cover no-repeat;
     height: 500px;
     display: flex;
     align-items: center;
