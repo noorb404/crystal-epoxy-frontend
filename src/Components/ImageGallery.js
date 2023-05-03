@@ -23,9 +23,10 @@ const ImageGallery = ({ images }) => {
   const sliderSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 300, // Decrease the transition speed for smoother animation
     slidesToShow: 1,
     slidesToScroll: 1,
+    easing: 'ease-out', // Add easing to improve the smoothness of the animation
   };
 
   return (
