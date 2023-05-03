@@ -71,9 +71,13 @@
       display: none;
     }
   
-    .image-gallery .image-container img {
-      width: 150px;
-      height: 100px;
+    .image-row .image-container img {
+        width: 150px;
+        height: 100px;
+        transition: transform 0.4s ease-in-out; /* Add a transition for smooth scaling */
     }
+    .image-row .image-container:hover img {
+        transform: scale(1.4); /* Increase the size of the image when hovering */
+      }
   }
   
