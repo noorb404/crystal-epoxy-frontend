@@ -10,7 +10,7 @@ const Mirrors = () => {
         <Hero 
         title="Reflect your unique style with our mirrors." 
         subtitle="Indulge in one-of-a-kind, handcrafted pieces" 
-        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124263/cnc_png_vstme9.jpg"} 
+        imageSrc={"https://res.cloudinary.com/ddlf8wxvm/image/upload/v1683124321/mirrorBackground_pi0xcd.jpg"} 
       />
         <div className="breadcrumb">
         <ul>
