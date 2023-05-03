@@ -28,26 +28,7 @@ function AboutUs() {
           <li>About</li>
         </ul>
       </div>
-          <div className="insta-section">
-        <picture>
-          <source media="(max-width: 767px)" srcSet={smallInsta} />
-          <img src={insta} alt="Instagram preview" className="insta-image" />
-        </picture>
-        <div className="insta-headline">
-          <h2>Follow us</h2>
-          <h1>On Instagram!</h1>
-          <a
-            href="https://www.instagram.com/crystal.wood_epoxydesign/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="follow-us-link"
-            style={{ color: "#f7f7f4", padding: "10px" }}
-          >
-            @CRYSTAL.WOOD_EPOXYDESIGN<FaArrowRight style={{ marginLeft:'7px',paddingTop: "5px" }} />
-          </a>
-        </div>
-      </div>
-      <div className='separator'></div>
+
       <section className="about-us__intro">
         <div className="about-us__container">
           <div className="about-us__text">
@@ -78,32 +59,25 @@ function AboutUs() {
       </section>
       <div className='separator'></div>
 
-      <section className="about-us__woods">
-        <h1 style={{color:'#303030' , paddingBottom:'20px'}}>Part of Our Wood Collection</h1>
-        <div className="about-us__container">
-            <div className="about-us__wood">
-            <img src={olive} alt="Wood type" className="about-us__wood-image" />
-            <h3 className="about-us__wood-heading">Olive</h3>
-            <p className="about-us__wood-description">
-            Olive wood is prized for its dense, intricate grain patterns and durability, making it a popular choice for carving and decorative items.
-            </p>
-            </div>
-            <div className="about-us__wood">
-            <img src={eucalyptus} alt="Wood type" className="about-us__wood-image" />
-            <h3 className="about-us__wood-heading">Eucalyptus</h3>
-            <p className="about-us__wood-description">
-            Eucalyptus wood is known for its light color and distinctive scent, and is commonly used for furniture, flooring, and paper production.
-            </p>
-            </div>
-            <div className="about-us__wood">
-            <img src={maple} alt="Wood type" className="about-us__wood-image" />
-            <h3 className="about-us__wood-heading">Maple</h3>
-            <p className="about-us__wood-description">
-                Maple is a hard, dense wood that is known for its light color and fine grain pattern. It's a popular choice for furniture because of its durability and resistance to wear and tear.
-            </p>
-            </div>
+      <div className="insta-section">
+        <picture>
+          <source media="(max-width: 767px)" srcSet={smallInsta} />
+          <img src={insta} alt="Instagram preview" className="insta-image" />
+        </picture>
+        <div className="insta-headline">
+          <h2>Follow us</h2>
+          <h1>On Instagram!</h1>
+          <a
+            href="https://www.instagram.com/crystal.wood_epoxydesign/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="follow-us-link"
+            style={{ color: "#f7f7f4", padding: "10px" }}
+          >
+            @CRYSTAL.WOOD_EPOXYDESIGN<FaArrowRight style={{ marginLeft:'7px',paddingTop: "5px" }} />
+          </a>
         </div>
-        </section>
+      </div>
       <div className='separator'></div>
 
       <section className="about-us__section">
