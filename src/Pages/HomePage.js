@@ -31,8 +31,28 @@ import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
 
 
+import Olive from '../Images/olivewood.png';
+import Eucalyptus from '../Images/Eucalyptuswood.jpg';
+import Maple from '../Images/maplewood.jpg';
+
+import Oak from '../Images/Oak.jpg';
+import Walnut from '../Images/Walnut.jpg';
+import Cherry from '../Images/Cherry.jpg';
+import Pine from '../Images/Pine.jpg';
+import ImageGallery from '../Components/ImageGallery';
+
 
 const HomePage = () => {
+
+
+  const images = [  { id: 1, url: Olive, name: "olive"}, 
+                  { id: 2, url: Eucalyptus, name: "eucalyptus"},
+                  { id: 3, url: Maple, name: "maple"},
+                  { id: 4, url: Oak, name: "oak"},  
+                  { id: 5, url: Walnut, name: "walnut"},  
+                  { id: 6, url: Cherry, name: "cherry"},  
+                  { id: 7, url: Pine, name: "pine"} 
+                  ];
 
   const [tables, setTables] = useState([]);
   const [randomProducts, setRandomProducts] = useState([]);
@@ -111,11 +131,12 @@ const HomePage = () => {
               </Box>
         </Container>
 
-        <div className='separator'></div>
+
 
 
         {/* Quality section */}
         <div className="quality-products2" >
+
 
           <section className="quality" style={{padding:'50px',paddingBottom:'0px'}}>
             <div className="quality__item">
@@ -134,6 +155,8 @@ const HomePage = () => {
               <p>We will help you give new life to your old furniture by restoring it with epoxy resin</p>
             </div>
           </section>
+        <div className='separator'></div>
+
         </div>
         
         <div className="insta-section" >
@@ -155,6 +178,11 @@ const HomePage = () => {
           </a>
         </div>
       </div>
+      
+      <div>
+          {/* Other homepage components */}
+          <ImageGallery images={images} />
+        </div>
 
       {/* Products section */}
       <section className="products">
