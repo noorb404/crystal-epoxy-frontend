@@ -13,7 +13,7 @@ const NavbarUpperSide = () => {
       </div>
       <div className="navbar__links-right">
         <a href="mailto:crystalepoxy797@gmail.com" className="navbar__email"><FaEnvelope className="navbar__icon" />crystalepoxy797@gmail.com</a>
-        <a href="https://wa.link/s6o3sg" style={{textDecoration:'none'}} className="navbar__whatsapp"><FaWhatsapp className="navbar__icon" />Contact us via WhatsApp</a>
+        <a href="https://wa.link/daff1c" style={{textDecoration:'none'}} className="navbar__whatsapp"><FaWhatsapp className="navbar__icon" />Contact us via WhatsApp</a>
       </div>
     </div>
   </nav>

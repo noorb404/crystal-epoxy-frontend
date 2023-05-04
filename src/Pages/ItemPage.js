@@ -119,7 +119,7 @@ const ItemPage = () => {
       </div>
 
 
-        <a href="https://wa.link/s6o3sg" style={{textDecoration:'none',maxWidth:'200px', fontFamily:'system-ui' ,fontWeight:'600'}} className="navbar__whatsapp buy-button"><FaWhatsapp className="navbar__icon" />Contact us via WhatsApp</a>
+        <a href="https://wa.link/daff1c" style={{textDecoration:'none',maxWidth:'200px', fontFamily:'system-ui' ,fontWeight:'600'}} className="navbar__whatsapp buy-button"><FaWhatsapp className="navbar__icon" />Contact us via WhatsApp</a>
         <p className="product-production-time">Production time: <span className="product-production-time" style={{fontWeight:'700'}}>2-5 weeks</span></p>
       </div>
     </div>
